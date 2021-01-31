@@ -55,7 +55,7 @@ defmodule PasswordValidatorZxcvbn.MixProject do
     [
       {:ex_doc, "~> 0.21", only: :dev, runtime: false},
       {:password_validator, "~> 0.4"},
-      {:zxcvbn, "~> 0.1.3"}
+      {:zxcvbn, github: "techgaun/zxcvbn-elixir", ref: "d97e660"}
     ]
   end
 end
